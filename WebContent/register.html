@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Registration Form</title>
+</head>
+<body>
+	<a href="index.jsp">Home Page</a>
+	<h1>Register Form</h1>
+	<form action="registerController" method="post">
+		<table style="with: 50%">
+
+			<tr>
+				<td>Username</td>
+				<td><input type="text" name="username" required/></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="password" required/></td>
+			</tr>
+			<tr>
+				<td>	<input type="radio" name="gender" value="MALE" checked> Male
+  						<input type="radio" name="gender" value="FEMALE"> Female
+  				</td>
+  			</tr>
+  			<tr>
+  				<td>Birthday</td>
+  				<td><input type="date" name="birthDate" required></td>
+  			</tr>
+  			
+		</table>
+		<input type="submit" value="Submit"/>
+	</form>
+</body>
+</html>
